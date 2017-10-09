@@ -1,0 +1,34 @@
+{
+  "name": "snapshotmaker",
+  "version": "1.0.0",
+  "description": "For making snapshots and uploading them on server",
+  "main": "/bin/www",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nstinct/snapshotmaker.git"
+  },
+  "keywords": [
+    "snapshot",
+    "node",
+    "htnl5"
+  ],
+  "author": "Yuriy Syedin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1nstinct/snapshotmaker/issues"
+  },
+  "homepage": "https://github.com/1nstinct/snapshotmaker#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "^2.5.7",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "multer": "^1.3.0",
+    "serve-favicon": "~2.4.2"
+  }
+}

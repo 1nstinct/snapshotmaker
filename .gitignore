@@ -1,0 +1,7 @@
+/node_modules
+node_modules/
+.idea
+./error.log
+/sslcert/
+/snapshots/
+.npm-debug.log
